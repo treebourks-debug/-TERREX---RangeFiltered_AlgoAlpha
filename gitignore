@@ -1,0 +1,54 @@
+# MetaTrader 5 compiled files
+*.ex5
+
+# MetaTrader 5 logs
+*.log
+Logs/
+
+# MetaTrader 5 history and tester files
+*.hst
+*.fxt
+Tester/
+History/
+
+# MetaTrader 5 temporary files
+*.tmp
+*.bak
+*~
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.orig
+*.rej
+
+# Build artifacts
+MQL5/Experts/*.ex5
+MQL5/Indicators/*.ex5
+MQL5/Scripts/*.ex5
+MQL5/Libraries/*.ex5
+
+# Personal broker account files
+*.account
+*.srv
+
+# Optimization results
+*.opt
+
+# Test reports (optional - comment out if you want to keep them)
+# *.htm
+# *.html
